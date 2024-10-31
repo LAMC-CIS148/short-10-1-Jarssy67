@@ -81,7 +81,17 @@ main {
     grid-template-areas:
         "side sec";
 }
-
+.grid container {
+	display: grid;
+	grip-template-rows: 1fr 1fr 1fr 1fr;
+	grid-template-columns: 1fr;
+	gap: 1em;
+}
+.grid-container > div {
+	background-color: #ddd;
+	padding: 1em;
+	text-align: center;
+}
 /* the styles for the section */
 section {
 	padding: 0 3.7% 20px 0;
